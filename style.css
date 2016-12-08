@@ -1,0 +1,55 @@
+/*
+http://patorjk.com/software/taag/#p=display&f=Varsity&t=T-minus%201
+
+ _________                       _                             __    
+|  _   _  |                     (_)                           /  |   
+|_/ | | \_|______  _ .--..--.   __   _ .--.  __   _   .--.    `| |   
+    | |   |______|[ `.-. .-. | [  | [ `.-. |[  | | | ( (`\]    | |   
+   _| |_           | | | | | |  | |  | | | | | \_/ |, `'.'.   _| |_  
+  |_____|         [___||__||__][___][___||__]'.__.'_/[\__) ) |_____| 
+                                                                   
+Theme Name: T-minus 1 Creative 2017
+template: twentyseventeen
+*/
+/******************************************************
+ _________  ______   ______   ______      
+/________/\/_____/\ /_____/\ /_____/\     
+\__.::.__\/\:::_ \ \\:::_ \ \\:::_ \ \    
+   \::\ \   \:\ \ \ \\:\ \ \ \\:\ \ \ \   
+    \::\ \   \:\ \ \ \\:\ \ \ \\:\ \ \ \  
+     \::\ \   \:\_\ \ \\:\/.:| |\:\_\ \ \ 
+      \__\/    \_____\/ \____/_/ \_____\/ 
+                                          
+/*****************************************************
+	** Javascript to shrink header
+	** Animate.css to move logo to upper right
+	** small logo appear on scroll
+/*****************************************************/
+/*****************************************************/
+
+.admin-bar .wp-custom-header-video-button {
+    z-index: 222;
+}
+
+#masthead > div.custom-header > div.site-branding {
+	margin-bottom: 17rem!important;
+}
+
+#masthead > div.custom-header > div.site-branding > div > a > img {
+	    max-height: 300px;
+}
+#masthead > div.custom-header > div.site-branding > div > a > img {
+	background-color: rgba(240, 248, 255,.1);
+	border-radius: 50%;
+}
+.site-branding {
+    margin-bottom: 20rem;
+    margin-left: 20rem;
+}
+.navigation-top {
+    top: 0;
+    bottom: 88%;
+    margin-top: 32px;
+    position: fixed;
+    opacity: .6;
+}
